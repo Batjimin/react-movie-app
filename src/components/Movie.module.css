@@ -1,0 +1,116 @@
+body{
+    margin-left: 40px;
+    margin-right:40px;
+    background-color: rgba(0, 0, 0, 0.774);
+    
+}
+
+.header{
+    background-color: rgb(235, 194, 93);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 13px 27px -5px rgba(38, 38, 70, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.795), 0 -6px 16px -6px rgba(0, 0, 0, 0.11);
+}
+
+.movie{
+   float: left;
+   display: flex;
+   align-items: center;
+   margin-left: 100px;
+   
+   position: relative;
+  
+}
+
+.titleCover{
+    height:100px;
+    text-align: center;
+}
+
+.movieTitle{
+    text-decoration-line: none ;
+    color: rgb(235, 194, 93);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.imgCover{
+    width: 400px;
+    height: 700px;
+    background-color:rgba(0, 0, 0, 0.733);
+    border:  1px solid rgb(172, 130, 25);
+    align-items: center;
+    box-shadow: 0 13px 27px -5px rgba(38, 38, 70, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.795), 0 -6px 16px -6px rgba(0, 0, 0, 0.11);
+}
+
+.movieIMG{
+    width: 350px;
+    height: 540px;
+    display: block;
+    margin-left: 25px;
+    border:  1px solid rgb(255, 255, 255);
+}
+
+.detailSection{
+    margin-left: 25px;
+    float: left;
+    width: 350px;
+    height: 540px;
+   background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: relative;
+    bottom: 540px;
+    opacity: 0;
+}
+
+.Link, .Link:visited  {
+    text-decoration: none;
+    color: antiquewhite;
+    } /*링크 방문여부 삭제*/
+
+.detailSection:hover{
+    opacity: 1;
+}
+
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 20px;
+    margin-top: 30px;
+   
+}
+
+
+.detailSection p{
+    height: 360px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.detailSection ul{
+    height: 80px;
+}
+
+.genres{
+    background-color: rgb(172, 130, 25);
+    text-align: center;
+}
+.detailSection ul li {
+    box-sizing: border-box;
+    margin-left: 10px;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.Detailcss{
+    color:white;
+}
